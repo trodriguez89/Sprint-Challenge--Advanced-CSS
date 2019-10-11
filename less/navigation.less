@@ -6,6 +6,13 @@ nav {
     padding: 1% 0;
     .nav-bg();
 
+    @media @phone {
+        width: 800px;
+        padding-top: 4%;
+        
+        
+    } // this ends @phone for nav
+
     .space-walker {
         .display(center);
         width: 400px;
@@ -16,6 +23,14 @@ nav {
         .display(space-around);
         width: 400px;
         padding-top: 1%;
+        
+
+        @media @phone {
+            width: 600px;
+            justify-content: space-evenly;
+            padding: 2% 0;
+        } // ends @media for .links
+
     } // this ends .links
 
 } // this ends nav

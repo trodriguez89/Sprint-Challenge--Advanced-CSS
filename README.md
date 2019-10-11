@@ -33,15 +33,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+    An adaptive website adapts to the width of the browser at specific points whereas a responsive site responds to the size of the browser at any given point.
 2. Describe what it means to be mobile first vs desktop first.
-
+    Mobile first means you are designing a website for a mobile device first and will expand the layout or features as you gain more screen space toward desktop. Desktop first means you are designing a website for a mobile device first and will scale down to mobile devices.
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+    62.5% of 16px is 10px so if we set font-size to 1.6rem that would equal 16px. It allows for accesibilty which is important, we want as many people as possible to access our website.
 4. How would you describe preprocessing to someone new to CSS?
-
+    Preprocessors give us extra functionality. In vanilla CSS we often find ourselves repeating code, Preprocessors eliminate this as well as help organize our code more efficiently.
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+    Favorite concept is nesting elements as well as having seperate LESS files for nav, header etc. Instead of constantly scrolling up and down I can easily find the portion of code I need to work on. Most troublesome part is parametric mixins, and using variables within those. At times I find this a little confusing, but with more practice and use it will become easier to use.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
